@@ -1,0 +1,22 @@
+{
+    "name": "gps-data-tracker",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@serialport/parser-readline": "^12.0.0",
+        "axios": "^1.7.2",
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.5-lts.1",
+        "mysql2": "^3.10.3",
+        "pm2": "^5.4.1",
+        "serialport": "^12.0.0"
+    }
+}
